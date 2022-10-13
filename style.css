@@ -1,0 +1,152 @@
+.w3-light-grey {
+height: 50%;
+display: flex;
+flex-direction: column;
+min-height: 10vh;
+padding-bottom: 60%;
+}
+
+
+.w3-row-padding {
+  display: grid;
+  height: 100px;
+  grid-template-columns: 150px 300px;
+  grid-gap: 100px;
+  background-color: rgb(10, 130, 235);
+  padding: 10px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: aliceblue;
+  text-align: center;
+  background-color:#063970;
+  
+  height: 100px;
+}
+/*
+.w3-text-grey {
+  color: green;
+  text-decoration: none;
+}
+*/
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.w3-container {
+  color: #010e1b;
+  font-weight: 400;
+  font-size: ;
+  
+  
+}
+
+/*
+.footer-footer {
+  position: fixed;
+  width: 100px;
+  text-align: center;
+  flex: 0 0 100px;
+  background: #6cf;
+  z-index: 0;
+  height: 100px;
+}
+*/
+.mainpage {
+  max-width: 170px;
+}
+
+.w3-text-teal {
+  display:inline;
+}
+/*
+.w3-container {
+  display:inline;
+}
+
+
+
+
+
+/*
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header header header header header header'
+  'menu main main main main main'
+  'menu main main main main main'
+  'menu footer footer footer footer footer';
+  gap: 10px;
+  border: 1px solid transparent;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 12px 0;
+  font-size: 10px;
+}
+
+.item2 a {
+  display:block;
+  padding: 10px;
+}
+
+.item4 p, h3, a {
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  color: blue;
+  text-decoration: none;
+}
+
+.item4 a {
+  display: inline;
+  padding: 30px;
+}
+
+.item4 :hover {
+  color: red;
+}
+
+.item2 :active {
+  color: yellow;
+}
+
+.item2 :visited {
+  color: red;
+}
+
+.item2 :hover {
+  color: green:
+}
+
+.item3 p {
+ 
+  width:;
+  border: 20px;
+  text-indent: 50px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 1px;
+  margin-inline-end: 1px;
+}
